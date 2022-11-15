@@ -10,8 +10,8 @@ export class SeoService {
 
   initDefaultMetaInformation(){
     this.metaTagService.addTags([
-      {name: 'robots', content: 'index, follow'},
-      {name: 'author', content: 'Pantelis Papasavvas'}
+      { name: 'robots', content: 'index, follow' },
+      { name: 'author', content: 'Pantelis Papasavvas' }
     ])
   }
 }
