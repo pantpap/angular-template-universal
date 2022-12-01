@@ -12,5 +12,10 @@ export class AppComponent implements OnInit{
   }
   ngOnInit() {
     this.seoService.initDefaultMetaInformation();
+
+  // TODO using https://www.youtube.com/watch?v=KeT7T_f-H2Q
+  // TODO implement the titleService
+  // TODO in seoService implement updateTags method
+  // TODO on README.md  describe how to run in ssr mode
   }
 }
